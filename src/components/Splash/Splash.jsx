@@ -35,9 +35,9 @@ const Splash = props => {
           description={props.photo.caption}
           justify="end"
           align="end"
-          pad="medium"
+          pad="none"
           basis="full"
-          className='card'
+          className='card lead'
         />
 
       </Box>

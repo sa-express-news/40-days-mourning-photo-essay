@@ -7,6 +7,12 @@
     label {
       font-size: 0.8rem;
     }
+    @media (min-width: 1px){
+      &.lead{
+      background: rgba(0,0,0,0.5);
+      }
+    }
+
 
     @media screen and (max-width: 44.9376em) {
       .grommetux-headline {
