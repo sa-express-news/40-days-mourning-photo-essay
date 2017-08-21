@@ -34,12 +34,12 @@ const Splash = props => {
           heading={addHeading(props.photo.title)}
           description={props.photo.caption}
           justify="end"
-          align="start"
+          align="end"
           pad="medium"
-          basis="1/2"
+          basis="full"
           className='card'
         />
-        <Box basis="1/2"></Box>
+
       </Box>
     </Section>
   )

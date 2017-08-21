@@ -20,7 +20,7 @@ const buildSocialButton = (href, icon) => {
   );
 };
 
-const storyLink = 'http://www.expressnews.com/scott-deem-firefighter-san-antonio-photo-essay/';
+const storyLink = 'http://www.expressnews.com/40-days-mourning-photo-essay/';
 
 const buildAllSocialButtons = () => (
   <div>

@@ -2,7 +2,7 @@
   "name": "expressnews-react-template",
   "version": "0.1.0",
   "private": true,
-  "s3Bucket": "//labs.expressnews.com/UPDATE_ME_TO_MATCH_YOUR_S3_DIRECTORY/",
+  "s3Bucket": "http://projects.expressnews.com.s3-website-us-east-1.amazonaws.com/40-days-mourning-photo",
   "devDependencies": {
     "autoprefixer": "6.7.2",
     "babel-core": "6.22.1",
