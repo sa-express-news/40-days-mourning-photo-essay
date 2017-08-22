@@ -24,7 +24,7 @@ const addHeading = (text, tag, className, onClickHandle) => {
 
 const setViewState = (isCaptionOpen, openCaption, isCurrPhoto, photo) => {
   return {
-    wrapClass: isCaptionOpen ? 'text-background-opaque' : 'text-background',
+    wrapClass: isCaptionOpen ? 'text-background-opaque chapter' : 'text-background chapter',
     descriptionText: isCaptionOpen && isCurrPhoto ? photo.caption : 'View Caption',
     descriptionClass: isCaptionOpen && isCurrPhoto ? 'caption' : 'read-more',
     descriptionHandle: isCaptionOpen ? null : openCaption,
